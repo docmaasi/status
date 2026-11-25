@@ -48,14 +48,7 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
-      - name: Update template
-        # Template auto-updates are off (they need a workflows-scope token); keep going if it fails.
-        continue-on-error: true
-        uses: upptime/uptime-monitor@v1.46.5
-        with:
-          command: "update-template"
-        env:
-          GH_PAT: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
+      # Template auto-update removed: it rewrites workflow files, which this token cannot push.
       - name: Update response time
         uses: upptime/uptime-monitor@v1.46.5
         with:
