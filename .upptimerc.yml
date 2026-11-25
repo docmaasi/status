@@ -1,31 +1,67 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: docmaasi
+repo: status
+
+assignees:
+  - docmaasi
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: "Smith App Studio"
+    url: https://www.smithappstudio.com
+  - name: "Grant Desk"
+    url: https://mygrantdesk.com
+  - name: "FamilyCare (website)"
+    url: https://familycare.help
+  - name: "FamilyCare (app)"
+    url: https://app.familycare.help
+  - name: "FamilyCare Facility"
+    url: https://familycarefacility.com
+  - name: "CoParent"
+    url: https://coparent.help
+  - name: "ExamPilot"
+    url: https://exampilot.help
+  - name: "Inmigrante"
+    url: https://inmigrante.help
+  - name: "Payless Help"
+    url: https://paylesshelp.com
+  - name: "PostPilot"
+    url: https://postpilot.help
+  - name: "ProfilePhoto"
+    url: https://profilephoto.help
+  - name: "ProfitSignal"
+    url: https://profitsignal.help
+  - name: "TrueID"
+    url: https://trueid.help
+  - name: "Zari"
+    url: https://zari.help
+  - name: "Nexaria Digital"
+    url: https://nexariadigital.com
+  - name: "Tending Circle"
+    url: https://tendingcircle.com
+  - name: "Marquee VR"
+    url: https://marqueevr.com
+  - name: "Snotty's World"
+    url: https://snottys.com
+  - name: "My Bad Feet"
+    url: https://mybadfeet.com
+  - name: "Smith Health TV"
+    url: https://pro.smithhealthtv.com
+  - name: "Doorstep"
+    url: https://doorstep.smithappstudio.com
+  - name: "Feet Naturally"
+    url: https://feetnaturally.com
+  - name: "MatrixROI"
+    url: https://matrixroi.com
+  - name: "Veylora"
+    url: https://veylora.studio
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /status
+  logoUrl: https://www.smithappstudio.com/assets/apple-touch-icon.png
+  name: Smith App Studio Status
+  introTitle: "**Smith App Studio** service status"
+  introMessage: Live status for Smith App Studio apps and websites, checked every five minutes.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Smith App Studio
+      href: https://www.smithappstudio.com
