@@ -57,6 +57,8 @@ sites:
 status-website:
   baseUrl: /status
   logoUrl: https://www.smithappstudio.com/assets/apple-touch-icon.png
+  favicon: https://www.smithappstudio.com/assets/apple-touch-icon.png
+  faviconSvg: https://www.smithappstudio.com/assets/apple-touch-icon.png
   name: Smith App Studio Status
   introTitle: "**Smith App Studio** service status"
   introMessage: Live status for Smith App Studio apps and websites, checked every five minutes.
@@ -65,3 +67,6 @@ status-website:
       href: /
     - title: Smith App Studio
       href: https://www.smithappstudio.com
+
+i18n:
+  footer: "Smith App Studio LLC · [smithappstudio.com](https://www.smithappstudio.com)"
